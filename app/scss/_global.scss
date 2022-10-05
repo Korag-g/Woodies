@@ -1,0 +1,40 @@
+body{
+    background-color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.container{
+    max-width: 972px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.title{
+    font-weight: 700;
+    line-height: 49px;
+    font-size: 36px;
+    color: #3E3F43;
+    padding-left: 36px;
+    position: relative;
+    &::before{
+        content: '';
+        background-image: url(../images/half-logo.svg);
+        background-repeat: no-repeat;
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        left: 0;
+        top: 9px;
+    }
+}
+.s{
+    font-weight: 800;
+}
+
+.stealth{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    color: rgba(34, 34, 34, 0.1);
+}
